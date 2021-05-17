@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <!-- For external style sheets -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+  <link rel="stylesheet" type="text/css" href="css/hamburger-animation.css">
+  <link rel="stylesheet" type="text/css" href="css/dark-mode-button.css">
+  <link rel="stylesheet" type="text/css" href="css/dark-styles.css">
+  <!--jQuery import link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--Makes menus on mobile devices responsive to touch (include :hover and :active)-->
+  <!-- <script>document.addEventListener("touchstart", function(){}, true);</script> -->
+  <!-- For custom fonts -->
+  <link href="" rel="stylesheet">
+  <!-- Font awesome stuff -->
+  <!-- <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b96c1e7f03.js"></script> -->
+  <title></title>
+  <style>
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  body {
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(235, 235, 235);
+    transition: .1s; /* transition back into light mode */
+    position: relative;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul li::marker {
+    display: none;
+  }
+  ul, li {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+</style>
+</head>
+
+<body class="light-mode">
+<!---------------->
+<!--HEADER START-->
+<!---------------->
+  <header>
+    <div class="container">
+      <!--form name needs to match input hidden name-->
+      <form class='contact-form' name='contact-form' data-netlify="true" method="POST">
+  
+        <div class='city-zip-container'>  
+          <div class='form-field'>
+            <label for='name'>Full Name:</label>
+            <input type='text' name='fullname' placeholder='enter your name...'>
+          </div>
+          
+          <div class='form-field'>
+            <label for='city'>City:</label>
+            <input type='text' name='city' placeholder='enter your city...'>
+          </div>
+        </div>
+         
+          <div class='form-field'>
+            <label for='email'>Email:</label>
+            <input type='email' name='email' placeholder='example@example.com'>
+          </div>
+        
+          <div class='form-field'>
+            <label for='message'>Message:</label>
+            <textarea rows='10' name='message' placeholder='Please type a message...'></textarea>
+          </div>
+        
+          <button type="submit" value="Submit">Submit</button>
+          <!--DONT FORGET THIS PART-->
+          <input type="hidden" name="contact-form" value="sign-up">
+          <!--DONT FORGET THIS PART-->
+      </form>
+    </div>
+  </header> 
+<!-------------->
+<!--HEADER END-->
+<!-------------->
+
+
+<!------------------->
+<!--SECTION 1 START-->
+<!------------------->
+  <section>
+    <div class="container">
+
+    </div>
+  </section>
+<!----------------->
+<!--SECTION 1 END-->
+<!----------------->
+
+
+<!---------------->
+<!--FOOTER START-->
+<!---------------->
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
+  
+ <!-- For JS Scripts -->
+ <script src="js/hamburger.js"></script>
+ <script src="js/dark-mode-toggle.js"></script>
+</body>
+</html>

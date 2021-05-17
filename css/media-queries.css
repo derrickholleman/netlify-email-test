@@ -1,0 +1,13 @@
+@media screen and (max-width: 492px) {
+    /* aligns all inputs to the left in mobile view */
+    .city-zip-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  @media screen and (min-width: 278px) and (max-width: 492px) {
+    .name, .city {
+      width: 117%;
+    }
+  }
