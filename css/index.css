@@ -33,7 +33,7 @@
   }
 
   input, textarea {
-    caret-color: rgb(78, 78, 78);
+    /* caret-color: rgb(78, 78, 78); */
     outline: none;
     padding: .9rem;
     border-radius: 4px;
