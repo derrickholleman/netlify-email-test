@@ -23,6 +23,7 @@
     margin: 1rem 2rem;
     display: flex;
     flex-direction: column;
+    cursor: vertical-text;
   }
   /* necessary in order to put two form fields in a single row */
   .city-zip-container {
