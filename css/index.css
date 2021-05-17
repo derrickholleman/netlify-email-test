@@ -39,19 +39,27 @@
     display: block; /* allows padding to be added */
     padding-bottom: .25rem;
   }
+
+  input, textarea {
+    caret-color: rgb(78, 78, 78);
+    outline: none;
+  }
+
+  input:focus, textarea:focus,
+  input:active, textarea:active {
+    border: 2px solid gray;;
+  }
   
   input {
     padding: .4rem .2rem;
     border-radius: 4px;
     border: 1px solid gray;
     width: 100%; /* necessary for responsive input fields */
-    caret-color: rgb(78, 78, 78);
   }
   textarea {
     width: 100%;
     border-radius: 4px;
     border: 1px solid gray;
-    caret-color: rgb(78, 78, 78);
   }
   textarea[placeholder] {
     font-family: 'Times New Roman', 'sans-serif';
