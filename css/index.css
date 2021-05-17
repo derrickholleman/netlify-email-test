@@ -47,7 +47,7 @@
 
   input:focus, textarea:focus,
   input:active, textarea:active {
-    border: 2px solid gray;;
+    border: 2px solid gray;
   }
   
   input {
@@ -77,10 +77,10 @@
   }
   
   input[type='email']:valid:focus {
-    border: 1px solid green;
+    border: 2px solid green;
   }
   
   input[type='email']:invalid:focus {
-    border: 1px solid red;
+    border: 2px solid red;
   }
   
