@@ -11,20 +11,16 @@
   .container {
     position: relative;
     width: 1140px;
-    margin: 0 auto;
+    margin: 5rem auto;
     max-width: 100%;
-    display: grid;
-    place-items: center center;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
   }
 
   .contact-form {
     border: 1px solid black;
-    margin: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
     width: 95%;
-    max-width: 500px;
+    max-width: 500px; /* stops form from getting larger */
   }
 
   .form-field {
@@ -39,24 +35,17 @@
   input, textarea {
     caret-color: rgb(78, 78, 78);
     outline: none;
+    padding: .9rem;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 100%;
   }
 
   input:focus, textarea:focus,
   input:active, textarea:active {
     border: 2px solid gray;
   }
-  
-  input {
-    padding: .4rem .2rem;
-    border-radius: 4px;
-    border: 1px solid gray;
-    width: 100%; /* necessary for responsive input fields */
-  }
-  textarea {
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid gray;
-  }
+
   textarea[placeholder] {
     font-family: 'Times New Roman', 'sans-serif';
   }
