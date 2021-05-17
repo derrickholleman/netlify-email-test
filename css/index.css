@@ -19,6 +19,7 @@
 
   .contact-form {
     border: 1px solid black;
+    border-radius: 10px;
     width: 95%;
     max-width: 500px; /* stops form from getting larger */
   }
@@ -26,14 +27,8 @@
   .form-field {
     margin: 1rem 1.5rem; /* evenly spaces all form fields */
   }
-  
-  label {
-    display: block; /* allows padding to be added */
-    padding-bottom: .25rem;
-  }
 
   input, textarea {
-    /* caret-color: rgb(78, 78, 78); */
     outline: none;
     padding: .9rem;
     border-radius: 4px;
@@ -56,6 +51,7 @@
     border: 1px solid gray;
     border-radius: 4px;
     cursor: pointer;
+    transition: .25s ease-out;
   }
   button:hover {
     border: 1px solid cyan;
